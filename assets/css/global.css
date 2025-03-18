@@ -437,8 +437,8 @@ body #header.fixed.intelligent.fix .main-header {
 .logos-slide {
     display: flex;
     align-items: center;
-    gap: 100px; 
-    animation: scroll 20s linear infinite;
+    gap: 80px; 
+    animation: scroll 10s linear infinite;
 	height:80px ;
 }
 
