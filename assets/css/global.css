@@ -532,7 +532,7 @@ body #header.fixed.intelligent.fix .main-header {
 	position: relative;
 	/* margin-right: 27px; */
 	/* padding-left: 38px;  */
-	padding-left: 10px;
+	padding-left: 25px;
 	width: 946px;
 	/* float: right; */
 	margin-top: 24px;
@@ -569,7 +569,8 @@ body #header.fixed.intelligent.fix .main-header {
 .navigation:after {
 	content: "";
 	/* background: #314555; */
-	background-color: #1fc0c5;
+	/* background-color: #1fc0c5; */
+	background-color: #50b9ce;
 	display: block;
 	width: 350%;
 	height: 100%;
