@@ -530,10 +530,11 @@ body #header.fixed.intelligent.fix .main-header {
 	/* background: linear-gradient(#77c1f2,#3699dc); */
 	background-color: #50b9ce;
 	position: relative;
-	margin-right: 27px;
-	padding-left: 38px;
-	width: 846px;
-	float: right;
+	/* margin-right: 27px; */
+	/* padding-left: 38px;  */
+	padding-left: 10px;
+	width: 946px;
+	/* float: right; */
 	margin-top: 24px;
 	font-size: 0;
 }
