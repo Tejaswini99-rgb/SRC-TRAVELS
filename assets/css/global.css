@@ -429,6 +429,10 @@ body #header.fixed.intelligent.fix .main-header {
     background-color: #fff; 
     padding: 30px 0;
 }
+.caption h2 {
+    max-width: 500px; /* Adjust as needed */
+    line-height: 1.2; /* Adjust spacing */
+}
 
 .logos-slide {
     display: flex;

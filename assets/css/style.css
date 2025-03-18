@@ -93,10 +93,11 @@
 	transition: 0.5s all ease;
 	-webkit-transition: 0.5s all ease;
 }
-.caption {
-	width: 476px;
-}
+/* .caption {
+	width: 700px;
+} */
 .banner-text h2 {
+
 	font-weight: 900;
 	letter-spacing: -0.9px;
 	white-space: normal;
