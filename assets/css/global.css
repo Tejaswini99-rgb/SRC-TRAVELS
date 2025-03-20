@@ -41,10 +41,10 @@ h3, .h3 {
 	font-weight: 700;
 	color: #2c3740;
 }
-h4, .h4 {
+/* h4, .h4 {
 	font-size: 24px;
 	color: #2c3740;
-}
+} */
 h5, .h5 {
 	/* font-size: 18px; */
 	color: #2c3740;
@@ -81,6 +81,11 @@ a:hover {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+.client-images img{
+	max-width: 65%;
+	margin: 20px 10px;
 }
 ul, ol {
 	padding-left: 0px;
@@ -417,10 +422,24 @@ body #header.fixed.intelligent.fix .main-header {
         margin-left: 0;
     }
 }
-.features-text .heading span {
+.features-text .heading span,
+.amazing-text .heading span {
     color: #6d7c88;
 }
-
+.amazing-text .heading h4{
+	font-size: 15px;
+	margin-bottom: 12px;
+	letter-spacing: 0.5px;
+	word-spacing: 3px;
+	color: #626c84;
+	font-weight: 600;
+}
+.amazing-text .heading h4 strong{
+	color: #2c84d0;
+}
+.features-text {
+	margin-top: 20px !important;
+}
 .logos-carousel {
     overflow: hidden;
     white-space: nowrap;
@@ -531,8 +550,8 @@ body #header.fixed.intelligent.fix .main-header {
 	background-color: #50b9ce;
 	position: relative;
 	/* margin-right: 27px; */
-	/* padding-left: 38px;  */
-	padding-left: 25px;
+	padding-left: 35px; 
+	/* padding-left: 25px; */
 	width: 946px;
 	/* float: right; */
 	margin-top: 24px;
